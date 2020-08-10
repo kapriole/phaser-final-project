@@ -1,0 +1,65 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>Making a Phaser 3 Game</title>
+   
+    <style type="text/css">
+      @font-face {
+        font-family: font1;
+        src: url('assets/m5x7.ttf');
+        font-weight:400;
+        font-weight:normal;
+    } 
+        body {
+             background: #000000;
+                padding: 0px;
+                margin: 0px;
+                position: relative;
+        }
+        
+        div {
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10% 0;
+        min-height: 200px;
+        background-color: rgba(33, 33, 33, .3);
+        align-items: center;
+        position: absolute;
+        }
+
+        #intro {
+            z-index: 1000;
+        }
+
+    </style>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script> 
+</head>
+<body>
+    <div id="game">
+    <div id="intro" onclick="changeVisibiltyByClick()"><img src="assets/images/title.png"></div>
+    <div id="intro2" onclick="changeVisibiltyByClick2()"><img src="assets/images/intro3.png"></div>
+    <div id="intro3" onclick="changeVisibiltyByClick3()"><img src="assets/images/intro2.png"></div>
+
+</div>
+    <script>
+function changeVisibiltyByClick() {
+  document.getElementById("intro").style.visibility = "hidden";
+}
+function changeVisibiltyByClick2() {
+  document.getElementById("intro2").style.visibility = "hidden";
+}
+function changeVisibiltyByClick3() {
+  document.getElementById("intro3").style.visibility = "hidden";
+}
+
+</script>
+    <script src="game.js">
+    </script> 
+</body>
+</html>

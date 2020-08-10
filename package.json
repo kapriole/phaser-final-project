@@ -1,0 +1,28 @@
+{
+  "name": "phaser-tutorial",
+  "version": "1.0.0",
+  "description": "a basic tutorial for learning phaser",
+  "main": "index.js",
+  "scripts": {
+    "test": "Standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/final-project/phasertutorial.git"
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "adventure",
+    "jump"
+  ],
+  "author": "kapriole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/final-project/phasertutorial/issues"
+  },
+  "homepage": "https://github.com/final-project/phasertutorial#readme",
+  "dependencies": {
+    "phaser": "^3.22.0"
+  }
+}
